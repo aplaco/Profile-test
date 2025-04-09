@@ -1,0 +1,32 @@
+.join {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  h1 {
+    width: 30%;
+    text-align: right;
+  }
+
+  article {
+    width: 65%;
+    text-align: left;
+    margin-bottom: 50px;
+
+    h2 {
+      font-size: 1.2rem;
+    }
+    p {
+      margin-bottom: 20px;
+
+      input[type="text"],
+      input[type="password"],
+      select {
+        width: 60% !important;
+      }
+    }
+    textarea {
+      width: 60% !important;
+    }
+  }
+}
