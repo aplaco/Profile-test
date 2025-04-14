@@ -12,7 +12,8 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Orbitron:wght@400..900&display=swap"
     rel="stylesheet">
-  <script defer src="js/common.js"></script>
+  <script type="module" src="js/common.js"></script>
+  <script type="module" src="js/youtube.js"></script>
 </head>
 
 <body>
@@ -35,8 +36,10 @@
       </div>
     </header>
 
-    <main>
-      <h1>포트폴리오 페이지</h1>
+    <main class="work">
+      <h1>My Works</h1>
+
+      <section class="frame"></section>
     </main>
 
     <footer>
@@ -48,7 +51,13 @@
       <p>2025 abc &copy; All rights reserved.</p>
     </footer>
   </div>
+
   <aside class="mobileMenu"></aside>
+
+  <aside class="popup">
+    <span class="closePop">close</span>
+    <div class="con"></div>
+  </aside>
 
 </body>
 
